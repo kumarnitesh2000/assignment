@@ -680,3 +680,9 @@
 2024-07-24T20:39:53.887Z : [32minfo[39m: app is running :: listening at 5000
 2024-07-24T20:39:56.071Z : [32minfo[39m: connected to mongo db
 2024-07-24T20:40:00.008Z : [32minfo[39m: inside change strategy function
+2024-07-24T20:53:01.597Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:53:03.559Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:53:04.471Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:53:06.351Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:53:28.747Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:53:30.618Z : [32minfo[39m: connected to mongo db

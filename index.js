@@ -6,9 +6,17 @@ const logger = require("./utils/logger");
 const { connect } = require("./utils/dbutils");
 const configSchema = require("./models/config");
 const { strategies } = require("./globalConstant");
+const {createClient} = require("redis");
 
 app.listen(PORT, () => {
   logger.info(`app is running :: listening at ${PORT}`);
+});
+const client = createClient({
+    password: config.redis_password,
+    socket: {
+        host: config.redis_host,
+        port: config.redis_port
+    }
 });
 
 connect()
@@ -33,3 +41,5 @@ connect()
   .catch((err) => {
     logger.error(`not connected to mongo db due to ${err}`);
   });
+
+  module.exports = {client};
