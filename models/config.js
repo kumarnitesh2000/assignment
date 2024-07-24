@@ -5,10 +5,6 @@ const configSchema = new mongoose.Schema({
         type: String,
         required: true,
         enum: strategies
-    },
-    weight: {
-        type: Number,
-        default: -1
     }
 });
 

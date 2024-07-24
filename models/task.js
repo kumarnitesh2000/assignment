@@ -10,7 +10,7 @@ const taskSchema = new mongoose.Schema({
         ref: 'Job',
         required: true
     },
-    eportred_by: {
+    reported_by: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Jobseeker',
         required: true

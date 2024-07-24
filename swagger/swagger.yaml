@@ -39,12 +39,80 @@ paths:
             $ref: '#/definitions/ErrorResponse'
     get:
       summary: get all moderators
+      parameters:
+        - name: page
+          in: query
+          description: The page number to retrieve
+          required: false
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          description: The number of tasks per page
+          required: false
+          schema:
+            type: integer
+            default: 10
       produces:
         - application/json
       responses:
         200: 
           description: OK
         default:  
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /moderators/{moderatorId}:
+    put:
+      summary: Update a moderator by ID
+      parameters:
+        - name: moderatorId
+          in: path
+          required: true
+          description: The ID of the moderator to update
+          schema:
+            type: string
+        - name: body
+          in: body
+          required: true
+          description: Key-value pairs to update in the moderator entry
+          schema:
+            type: object
+            properties:
+              weight:
+                type: number
+                format: float
+                description: Weight of the moderator
+              absent:
+                type: boolean
+                description: Absence status of the moderator
+              preferred_language:
+                type: string
+                description: Preferred language of the moderator
+              performance_score:
+                type: number
+                format: float
+                description: Performance score of the moderator
+              shift_timing:
+                type: string
+                description: Shift timing of the moderator
+              preferred_city:
+                type: string
+                description: Preferred city of the moderator
+            required:
+              - weight
+              - absent
+              - preferred_language
+              - performance_score
+              - shift_timing
+              - preferred_city
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+        default:
           description: Error
           schema:
             $ref: '#/definitions/ErrorResponse'
@@ -98,6 +166,62 @@ paths:
           description: Error
           schema:
             $ref: '#/definitions/ErrorResponse'
+  
+  /tasks:
+    get:
+      summary: get all tasks assigned to moderators
+      parameters:
+        - name: page
+          in: query
+          description: The page number to retrieve
+          required: false
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          description: The number of tasks per page
+          required: false
+          schema:
+            type: integer
+            default: 10
+      produces:
+        - application/json
+      responses:
+        200: 
+          description: OK
+        default:  
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /report:
+    post:
+      summary: register job seekers
+      parameters:
+        - $ref: '#/parameters/reportBody'
+      produces:
+        - application/json
+      responses:
+        200: 
+          description: OK
+        default:  
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /strategy:
+    patch:
+      summary: change strategy of assignment
+      parameters:
+        - $ref: '#/parameters/strategyBody'
+      produces:
+        - application/json
+      responses:
+        200: 
+          description: OK
+        default:  
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
 parameters:
   moderatorBody: &moderatorBody
     name: body
@@ -105,6 +229,12 @@ parameters:
     required: true
     schema:
       $ref: '#/definitions/moderatorBody'
+  strategyBody: &strategyBody
+    name: body
+    in: body
+    required: true
+    schema:
+      $ref: '#/definitions/strategyBody'
   jobBody: &jobBody
     name: body
     in: body
@@ -117,6 +247,12 @@ parameters:
     required: true
     schema:
       $ref: '#/definitions/jobSeekersBody'
+  reportBody: &reportBody
+    name: body
+    in: body
+    required: true
+    schema:
+      $ref: '#/definitions/reportBody'
 definitions: 
   ErrorResponse:
     required:
@@ -135,6 +271,13 @@ definitions:
       city:
         type: string
         example: "meerut"
+  strategyBody:
+    required:
+      - strategy
+    properties:
+      strategy:
+        type: string
+        example: "performance_based"
   jobSeekersBody:
     required:
       - name
@@ -146,6 +289,21 @@ definitions:
       email:
         type: string
         example: "kumarnit@mail.com"
+  reportBody:
+    required:
+      - seeker_id
+      - job_id
+      - reason
+    properties:
+      seeker_id:
+        type: string
+        example: "66a13045209739d6fa21c33f"
+      job_id: 
+        type: string
+        example: "66a12eb25ecf2752d416c5a3"
+      reason: 
+        type: string
+        example: "Ask For Money"
   moderatorBody:
     required:
       - name

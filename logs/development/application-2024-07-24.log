@@ -280,3 +280,403 @@
 2024-07-24T17:08:04.105Z : [32minfo[39m: app is running :: listening at 5000
 2024-07-24T17:08:05.982Z : [32minfo[39m: connected to mongo db
 2024-07-24T17:08:07.026Z : [32minfo[39m: configuration document created
+2024-07-24T17:14:15.001Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T17:14:16.984Z : [32minfo[39m: connected to mongo db
+2024-07-24T17:14:22.638Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T17:14:24.513Z : [32minfo[39m: connected to mongo db
+2024-07-24T17:14:26.913Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T17:14:28.863Z : [32minfo[39m: connected to mongo db
+2024-07-24T17:14:29.759Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T17:14:31.668Z : [32minfo[39m: connected to mongo db
+2024-07-24T17:14:38.295Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T17:14:40.186Z : [32minfo[39m: connected to mongo db
+2024-07-24T17:14:46.314Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T17:14:48.205Z : [32minfo[39m: connected to mongo db
+2024-07-24T17:14:50.121Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T17:14:52.112Z : [32minfo[39m: connected to mongo db
+2024-07-24T18:47:29.755Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T18:47:31.732Z : [32minfo[39m: connected to mongo db
+2024-07-24T18:49:56.526Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T18:49:58.517Z : [32minfo[39m: connected to mongo db
+2024-07-24T18:49:59.779Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T18:50:01.702Z : [32minfo[39m: connected to mongo db
+2024-07-24T18:51:19.450Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T18:51:21.566Z : [32minfo[39m: connected to mongo db
+2024-07-24T18:55:46.314Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T18:55:48.299Z : [32minfo[39m: connected to mongo db
+2024-07-24T18:55:49.430Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T18:55:51.365Z : [32minfo[39m: connected to mongo db
+2024-07-24T18:57:22.122Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T18:57:24.114Z : [32minfo[39m: connected to mongo db
+2024-07-24T18:57:31.015Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T18:57:33.105Z : [32minfo[39m: connected to mongo db
+2024-07-24T18:58:00.385Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T18:58:02.318Z : [32minfo[39m: connected to mongo db
+2024-07-24T18:58:03.333Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T18:58:05.250Z : [32minfo[39m: connected to mongo db
+2024-07-24T18:58:06.301Z : [32minfo[39m: configuration document created
+2024-07-24T18:58:12.572Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T18:58:14.524Z : [32minfo[39m: connected to mongo db
+2024-07-24T18:58:15.970Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T18:58:17.845Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:04:09.327Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:04:11.384Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:04:12.690Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:04:14.585Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:04:17.140Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:04:19.015Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:04:28.373Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:04:30.301Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:04:35.467Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:04:37.398Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:04:39.264Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:04:44.817Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:04:46.689Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:05:04.867Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:05:06.670Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:05:08.533Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:05:13.128Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:05:15.114Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:05:25.632Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:05:27.172Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:05:29.051Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:05:33.592Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:05:35.503Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:06:15.079Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:06:17.017Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:06:21.710Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:06:23.412Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:06:24.460Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:06:26.317Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:06:45.675Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:06:47.587Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:06:49.968Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:06:51.821Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:07:03.477Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:07:05.418Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:07:09.300Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:07:11.199Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:07:12.485Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:07:14.429Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:07:16.946Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:07:18.182Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:07:20.079Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:08:36.643Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:08:38.640Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:08:55.821Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:08:57.709Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:08:58.904Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:09:00.773Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:09:04.293Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:09:05.590Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:09:07.772Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:09:09.636Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:09:11.280Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:09:12.256Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:09:13.754Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:09:14.705Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:09:16.599Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:09:25.502Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:09:26.826Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:09:28.691Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:10:24.165Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:10:26.101Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:10:27.331Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:10:28.691Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:10:30.590Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:10:37.887Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:10:39.766Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:10:40.213Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:10:42.088Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:10:44.418Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:10:46.282Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:10:54.218Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:10:56.326Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:11:02.760Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:11:04.666Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:11:22.999Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:11:27.881Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:11:29.808Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:11:30.519Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:11:32.497Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:11:39.598Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:11:41.472Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:11:44.939Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:11:46.830Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:11:56.838Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:11:58.721Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:14:15.563Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:14:17.649Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:14:19.117Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:14:21.018Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:15:49.535Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:15:51.566Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:16:05.303Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:16:07.226Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:16:09.330Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:16:11.268Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:16:13.655Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:16:15.538Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:16:20.577Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:16:22.546Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:16:26.405Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:16:28.329Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:16:29.966Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:16:31.856Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:16:43.762Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:16:45.652Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:16:48.818Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:16:50.711Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:20:13.749Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:20:15.815Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:20:16.553Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:20:18.489Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:20:19.737Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:20:21.608Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:20:46.736Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:20:48.632Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:20:51.269Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:20:53.237Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:21:09.504Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:21:11.436Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:21:12.624Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:21:14.562Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:21:30.739Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:21:32.709Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:21:46.058Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:21:47.970Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:21:50.155Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:21:51.180Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:21:53.160Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:22:16.527Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:22:18.511Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:24:06.703Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:24:08.671Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:24:18.290Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:24:20.207Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:24:25.792Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:24:27.712Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:24:46.354Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:24:47.722Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:24:49.622Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:29:08.455Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:29:10.502Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:29:13.406Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:29:15.324Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:29:27.359Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:29:32.366Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:29:34.325Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:29:40.832Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:29:45.523Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:29:47.416Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:29:51.003Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:29:52.987Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:30:20.581Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:30:22.524Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:30:23.350Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:30:24.700Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:30:26.566Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:30:28.592Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:30:29.861Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:30:31.735Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:31:11.863Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:31:14.199Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:31:16.083Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:31:20.010Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:31:21.937Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:31:23.929Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:31:27.024Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:31:29.673Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:31:31.076Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:31:32.986Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:31:36.022Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:31:37.377Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:31:38.964Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:31:40.827Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:31:58.578Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:32:00.433Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:32:02.860Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:32:04.722Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:32:54.044Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:32:56.203Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:34:06.851Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:34:08.924Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:34:12.763Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:34:14.667Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:35:06.841Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:35:08.465Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:35:10.480Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:35:25.499Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:35:27.401Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:35:31.823Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:35:33.735Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:35:43.013Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:35:44.916Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:38:29.927Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:38:31.869Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:39:01.143Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:39:03.087Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:39:28.648Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:39:30.597Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:39:37.278Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:39:39.324Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:39:40.013Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:39:41.895Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:39:46.609Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:39:48.535Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:39:49.842Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:39:54.480Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:39:56.387Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:40:23.215Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:40:25.101Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:40:59.766Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:41:01.768Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:41:05.738Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:41:07.611Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:41:11.595Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:41:13.454Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:41:17.801Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:41:19.667Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:41:24.288Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:41:26.198Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:41:39.758Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:41:41.623Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:41:46.805Z : [31merror[39m: Error :: strategy is not defined
+2024-07-24T19:42:32.483Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:42:34.520Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:42:35.313Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:42:37.684Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:42:39.995Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:42:41.903Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:42:45.515Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:42:46.830Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:42:48.716Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:43:12.686Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:43:14.627Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:47:40.676Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:47:42.745Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:49:37.909Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:49:39.894Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:53:16.838Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:53:19.276Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:53:21.236Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:53:32.147Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:53:33.973Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:53:44.749Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:53:47.049Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:53:48.641Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:53:50.664Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:53:52.529Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:54:16.898Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:54:18.776Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:54:30.977Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:54:33.265Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:54:34.078Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:54:35.962Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:54:36.376Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:54:38.241Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:54:42.126Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:54:43.977Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:54:52.771Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:54:54.666Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:54:56.531Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:54:58.367Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:55:12.808Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:55:14.676Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:55:54.095Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:55:56.096Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:56:08.974Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:56:10.975Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:56:12.689Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:56:14.568Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:57:28.806Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:57:30.722Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:57:40.330Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:57:42.432Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:57:44.322Z : [32minfo[39m: connected to mongo db
+2024-07-24T19:57:52.801Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T19:57:54.644Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:03:23.279Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:03:25.386Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:03:38.459Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:03:40.324Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:05:46.927Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:05:48.898Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:05:53.617Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:05:55.498Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:06:19.105Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:06:20.924Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:07:04.872Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:07:06.874Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:07:14.706Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:07:16.551Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:07:17.502Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:07:19.376Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:09:58.660Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:10:00.659Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:14:34.370Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:14:36.380Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:14:45.173Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:14:47.021Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:15:17.517Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:15:19.391Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:15:25.022Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:15:26.893Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:20:21.213Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:20:23.253Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:20:53.802Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:20:55.719Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:21:11.066Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:21:12.944Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:21:15.281Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:21:17.173Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:21:18.353Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:21:19.634Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:21:21.518Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:21:22.804Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:21:24.790Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:21:27.249Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:21:29.137Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:21:33.965Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:21:35.851Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:21:37.351Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:21:39.593Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:21:41.460Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:22:06.100Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:22:07.647Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:22:09.508Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:22:46.862Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:22:48.887Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:25:37.056Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:25:39.035Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:25:44.797Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:25:46.685Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:26:59.762Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:27:01.793Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:27:08.741Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:27:10.677Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:27:13.199Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:27:15.104Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:27:17.927Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:27:19.828Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:27:24.851Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:27:26.729Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:33:59.323Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:34:01.318Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:34:31.079Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:34:32.965Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:35:17.728Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:35:19.784Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:37:39.041Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:37:40.997Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:37:46.084Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:37:47.973Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:37:51.491Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:37:53.065Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:37:54.898Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:38:06.524Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:38:08.379Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:38:33.795Z : [32minfo[39m: inside change strategy function
+2024-07-24T20:39:53.887Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-24T20:39:56.071Z : [32minfo[39m: connected to mongo db
+2024-07-24T20:40:00.008Z : [32minfo[39m: inside change strategy function

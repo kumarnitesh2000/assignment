@@ -18,7 +18,7 @@ connect()
     configSchema.find().then((config) => {
       if (config.length > 0) return;
       configSchema
-        .create({ strategy: strategies[0], weight: -1 })
+        .create({ strategy: strategies[0] })
         .then(() => {
           logger.info("configuration document created");
         })

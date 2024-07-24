@@ -66,10 +66,10 @@ const moderatorSchema = new mongoose.Schema({
         type: Boolean,
         default: true
     },
-    tasks: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Task'
-    }]
+    weight: {
+        type: Number,
+        default: 0
+    }
 });
 
 module.exports = mongoose.model('Moderator', moderatorSchema);
