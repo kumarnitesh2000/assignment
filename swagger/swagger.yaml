@@ -1,0 +1,25 @@
+openapi: 3.0.3
+info:
+  title: Report Section Service
+  description: API for assigning reports to moderators.
+  version: 1.0.0
+
+paths:
+  /health:
+    get:
+      summary: Health Check
+      description: Returns the health status of the service.
+      responses:
+        '200':
+          description: Health check successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "report section service is running 1.0.0 :: stage -> development"
+                  status:
+                    type: integer
+                    example: 200
