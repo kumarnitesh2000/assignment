@@ -4,10 +4,11 @@ module.exports = {
     development: {
         logDirectory: process.env.LOG_DIRECTORY || "/var/log/app",
         port:process.env.PORT || 5000,
-        swagger_base_url: "http://localhost"
+        mongoURI: process.env.URI
     },
     test: {
         logDirectory: process.env.LOG_DIRECTORY || "/var/log/app",
         port:process.env.PORT || 5000,
+        mongoURI: process.env.URI
     }
 }

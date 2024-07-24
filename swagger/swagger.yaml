@@ -1,4 +1,4 @@
-openapi: 3.0.3
+swagger: '2.0'
 info:
   title: Report Section Service
   description: API for assigning reports to moderators.
@@ -23,3 +23,152 @@ paths:
                   status:
                     type: integer
                     example: 200
+  /moderators:
+    post:
+      summary: register moderator
+      parameters:
+        - $ref: '#/parameters/moderatorBody'
+      produces:
+        - application/json
+      responses:
+        200: 
+          description: OK
+        default:  
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    get:
+      summary: get all moderators
+      produces:
+        - application/json
+      responses:
+        200: 
+          description: OK
+        default:  
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /jobs:
+    post:
+      summary: create job
+      parameters:
+        - $ref: '#/parameters/jobBody'
+      produces:
+        - application/json
+      responses:
+        200: 
+          description: OK
+        default:  
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    get:
+      summary: get all jobs
+      produces:
+        - application/json
+      responses:
+        200: 
+          description: OK
+        default:  
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+  /seekers:
+    post:
+      summary: register job seekers
+      parameters:
+        - $ref: '#/parameters/jobSeekersBody'
+      produces:
+        - application/json
+      responses:
+        200: 
+          description: OK
+        default:  
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+    get:
+      summary: get all job seekers
+      produces:
+        - application/json
+      responses:
+        200: 
+          description: OK
+        default:  
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+parameters:
+  moderatorBody: &moderatorBody
+    name: body
+    in: body
+    required: true
+    schema:
+      $ref: '#/definitions/moderatorBody'
+  jobBody: &jobBody
+    name: body
+    in: body
+    required: true
+    schema:
+      $ref: '#/definitions/jobBody'
+  jobSeekersBody: &jobSeekersBody
+    name: body
+    in: body
+    required: true
+    schema:
+      $ref: '#/definitions/jobSeekersBody'
+definitions: 
+  ErrorResponse:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+  jobBody:
+    required:
+      - job_name
+      - city
+    properties:
+      job_name:
+        type: string
+        example: "software developer"
+      city:
+        type: string
+        example: "meerut"
+  jobSeekersBody:
+    required:
+      - name
+      - email
+    properties:
+      name:
+        type: string
+        example: "Nitesh"
+      email:
+        type: string
+        example: "kumarnit@mail.com"
+  moderatorBody:
+    required:
+      - name
+      - city
+    properties:
+      name:
+        type: string
+        example: "Nitesh"
+      email:
+        type: string
+        example: "kumarnit@mail.com"
+      preferred_city:
+        type: string
+        example: "delhi"
+      preferred_language:
+        type: string
+        example: "english"
+      departments:
+        type: array
+        example: ["engineering","management","home_science"]
+        items:
+          type: string
+      shift_timing:
+        type: string
+        example: "day"
+      
