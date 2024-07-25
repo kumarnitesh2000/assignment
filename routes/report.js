@@ -11,24 +11,44 @@ const {
   RoundRobin,
   WeightedRoundRobin,
 } = require("../utils/assignment");
+const { createRedisClient } = require("../utils/dbutils");
 
 router.post("/report", (req, res) => {
   logger.debug("report the job");
-  const {job_id,seeker_id,reason} = req.body;
+  let current_shift = currentShift();
+  const cacheKey = `moderators:${current_shift}`;
+  const { job_id, seeker_id, reason } = req.body;
   let configDoc = {};
+  let redisClient;
   configSchema
     .find()
     .then((config) => {
       configDoc = config[0];
+      return createRedisClient();
+    })
+    .then((_redisClient) => {
+      logger.info(`searching for cache key ${cacheKey}`);
+      redisClient = _redisClient;
+      return redisClient.get(cacheKey);
+    })
+    .then((cachedModerators) => {
+      if (cachedModerators) {
+        logger.info("Cache hit for moderators");
+        return Promise.resolve(JSON.parse(cachedModerators));
+      }
+      logger.info("Cache miss for moderators");
       return moderatorSchema.find({
         absent: false,
         active: true,
-        shift_timing: currentShift(),
+        shift_timing: current_shift,
       });
     })
     .then((moderators) => {
+      // TTL is of 1 hour
+      redisClient.set(cacheKey, JSON.stringify(moderators), 'EX', 3600);
       let assignmentStrategy;
-      let {strategy} = configDoc;
+      const { strategy } = configDoc;
+
       if (strategy === "round_robin") {
         assignmentStrategy = new RoundRobin(moderators);
       } else if (strategy === "weighted_round_robin") {
@@ -36,16 +56,25 @@ router.post("/report", (req, res) => {
       } else {
         assignmentStrategy = new PerformanceBased(moderators);
       }
-      let moderator = assignmentStrategy.getSelectedModerator();
-      return taskSchema.create({job_id,reported_by: seeker_id,moderator: moderator["_id"],reason})
+
+      const moderator = assignmentStrategy.getSelectedModerator();
+      return taskSchema.create({
+        job_id,
+        reported_by: seeker_id,
+        moderator: moderator["_id"],
+        reason,
+      });
     })
-    .then((resp)=>{
-        logger.debug('task created')
-        res.status(HttpStatus.OK).json(resp)
+    .then((resp) => {
+      logger.debug("task created");
+      res.status(HttpStatus.OK).json(resp);
     })
-    .catch((err)=>{
-        logger.error(`Error :: ${err.message}`)
-        res.status(HttpStatus.BAD_REQUEST).json(new StandardResponse(err.message,HttpStatus.OK))
+    .catch((err) => {
+      console.log(err);
+      logger.error(`Error :: ${err.message}`);
+      res
+        .status(HttpStatus.BAD_REQUEST)
+        .json(new StandardResponse(err.message, HttpStatus.BAD_REQUEST));
     });
 });
 

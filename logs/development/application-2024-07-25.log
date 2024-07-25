@@ -1,0 +1,98 @@
+2024-07-25T03:17:25.497Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:17:27.446Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:23:03.156Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:23:05.155Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:23:29.504Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:23:31.385Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:23:40.371Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:23:42.238Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:25:10.963Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:25:12.992Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:26:14.922Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:26:16.870Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:27:04.311Z : [32minfo[39m: searching for cache key moderators:night
+2024-07-25T03:27:04.312Z : [31merror[39m: Error :: The client is closed
+2024-07-25T03:29:15.165Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:29:17.347Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:29:19.262Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:29:54.389Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:29:56.270Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:30:04.984Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:30:06.890Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:30:14.330Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:30:16.201Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:30:23.153Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:30:24.555Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:30:27.440Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:30:29.605Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:30:31.592Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:30:35.661Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:30:36.749Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:30:38.619Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:30:44.247Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:30:46.215Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:30:48.270Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:30:50.167Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:30:56.206Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:30:58.177Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:31:01.418Z : [32minfo[39m: searching for cache key moderators:night
+2024-07-25T03:31:01.419Z : [31merror[39m: Error :: The client is closed
+2024-07-25T03:31:18.944Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:31:20.883Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:31:41.360Z : [32minfo[39m: searching for cache key moderators:night
+2024-07-25T03:31:41.364Z : [31merror[39m: Error :: The client is closed
+2024-07-25T03:34:20.356Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:34:22.418Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:34:28.482Z : [32minfo[39m: searching for cache key moderators:night
+2024-07-25T03:34:28.680Z : [32minfo[39m: Cache miss for moderators
+2024-07-25T03:34:28.682Z : [31merror[39m: Error :: current_shift is not defined
+2024-07-25T03:35:16.035Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:35:18.042Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:35:20.670Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:35:22.686Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:35:32.162Z : [32minfo[39m: searching for cache key moderators:night
+2024-07-25T03:35:32.360Z : [32minfo[39m: Cache miss for moderators
+2024-07-25T03:36:48.075Z : [32minfo[39m: searching for cache key moderators:night
+2024-07-25T03:36:48.272Z : [32minfo[39m: Cache miss for moderators
+2024-07-25T03:39:45.441Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:39:47.475Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:39:57.634Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:39:59.606Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:40:07.528Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:40:09.561Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:40:18.347Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:40:20.288Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:40:21.952Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:40:23.907Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:41:07.494Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:41:09.627Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:42:27.935Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:42:30.186Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:42:32.160Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:42:36.134Z : [32minfo[39m: searching for cache key moderators:night
+2024-07-25T03:42:36.332Z : [32minfo[39m: Cache miss for moderators
+2024-07-25T03:45:11.366Z : [32minfo[39m: searching for cache key moderators:night
+2024-07-25T03:45:11.562Z : [32minfo[39m: Cache miss for moderators
+2024-07-25T03:45:50.568Z : [32minfo[39m: searching for cache key moderators:night
+2024-07-25T03:45:50.765Z : [32minfo[39m: Cache miss for moderators
+2024-07-25T03:46:06.302Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:46:08.357Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:47:08.384Z : [32minfo[39m: searching for cache key moderators:night
+2024-07-25T03:47:08.582Z : [32minfo[39m: Cache miss for moderators
+2024-07-25T03:47:08.784Z : [31merror[39m: Error :: client is not defined
+2024-07-25T03:48:00.197Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:48:02.253Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:48:04.979Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:48:06.946Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:48:18.842Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:48:20.447Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:48:22.428Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:48:24.450Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:48:26.421Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:48:29.700Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:48:31.074Z : [32minfo[39m: app is running :: listening at 5000
+2024-07-25T03:48:33.062Z : [32minfo[39m: connected to mongo db
+2024-07-25T03:48:43.509Z : [32minfo[39m: searching for cache key moderators:night
+2024-07-25T03:48:43.707Z : [32minfo[39m: Cache miss for moderators
+2024-07-25T03:48:52.936Z : [32minfo[39m: searching for cache key moderators:night
+2024-07-25T03:48:53.133Z : [32minfo[39m: Cache hit for moderators

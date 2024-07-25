@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const env = process.env.NODE_ENV || 'development';
 const config = require('../config')[env];
+const {createClient} = require("redis");
 
 function connect() {
   return new Promise((resolve, reject) => {
@@ -19,4 +20,14 @@ function close() {
   return mongoose.disconnect();
 }
 
-module.exports = { connect, close };
+const createRedisClient = () => {
+  return createClient({
+    password: config.redis_password,
+    socket: {
+        host: config.redis_host,
+        port: config.redis_port
+    }
+  }).connect();
+}
+
+module.exports = { connect, close, createRedisClient };
