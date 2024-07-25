@@ -212,3 +212,166 @@
 2024-07-25T04:42:07.682Z : [32minfo[39m: connected to mongo db
 2024-07-25T04:42:13.840Z : [32minfo[39m: app is running :: listening at 5000
 2024-07-25T04:42:15.841Z : [32minfo[39m: connected to mongo db
+2024-07-25T05:48:33.793Z : [31merror[39m: not connect to mongo db due to MongoParseError: option usecreateindex is not supported
+2024-07-25T05:48:39.796Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T05:49:07.599Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T05:49:07.816Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T05:58:37.243Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T05:58:37.464Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:00:12.005Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:00:12.227Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:00:29.762Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:00:29.770Z : [32minfo[39m: create moderators
+2024-07-25T06:00:30.624Z : [31merror[39m: Error :: E11000 duplicate key error collection: test.moderators index: email_1 dup key: { email: "kumarkalu@mail.com" }
+2024-07-25T06:00:30.815Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:01:12.121Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:01:12.129Z : [32minfo[39m: create moderators
+2024-07-25T06:01:13.007Z : [31merror[39m: Error :: E11000 duplicate key error collection: test.moderators index: email_1 dup key: { email: "kumarkalu@mail.com" }
+2024-07-25T06:01:13.185Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:03:35.969Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:03:36.004Z : [32minfo[39m: create moderators
+2024-07-25T06:03:36.824Z : [31merror[39m: Error :: E11000 duplicate key error collection: test.moderators index: email_1 dup key: { email: "kumarkalu@mail.com" }
+2024-07-25T06:03:37.039Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:04:00.384Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:04:00.408Z : [32minfo[39m: create moderators
+2024-07-25T06:04:01.238Z : [31merror[39m: Error :: E11000 duplicate key error collection: test.moderators index: email_1 dup key: { email: "kumarkalu@mail.com" }
+2024-07-25T06:04:01.452Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:07:37.458Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:07:37.470Z : [32minfo[39m: create moderators
+2024-07-25T06:07:40.013Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:08:27.559Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:08:27.573Z : [32minfo[39m: create moderators
+2024-07-25T06:08:29.093Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:08:57.746Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:08:57.754Z : [32minfo[39m: create moderators
+2024-07-25T06:08:59.231Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:10:00.743Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:10:00.750Z : [32minfo[39m: create moderators
+2024-07-25T06:10:03.478Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:10:15.981Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:10:15.988Z : [32minfo[39m: create moderators
+2024-07-25T06:10:18.724Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:15:17.012Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:15:17.020Z : [32minfo[39m: create moderators
+2024-07-25T06:15:20.117Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:18:32.049Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:18:32.057Z : [32minfo[39m: create moderators
+2024-07-25T06:18:34.897Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:19:14.719Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:19:14.727Z : [32minfo[39m: create moderators
+2024-07-25T06:19:18.173Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:20:31.770Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:20:31.778Z : [32minfo[39m: create moderators
+2024-07-25T06:20:35.632Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:25:14.980Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:25:14.987Z : [32minfo[39m: create moderators
+2024-07-25T06:25:15.857Z : [32minfo[39m: undefined
+2024-07-25T06:25:18.818Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:25:28.562Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:25:28.582Z : [32minfo[39m: create moderators
+2024-07-25T06:25:29.407Z : [32minfo[39m: undefined
+2024-07-25T06:25:31.428Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:25:52.547Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:25:52.558Z : [32minfo[39m: create moderators
+2024-07-25T06:25:53.442Z : [32minfo[39m: {"req":{"method":"POST","url":"http://127.0.0.1:37757/moderators","data":{"name":"Nitesh","email":"kumarksaslddu@mail.com","preferred_city":"delhi","preferred_language":"english","departments":["engineering","management","home_science"],"shift_timing":"night"},"headers":{"content-type":"application/json"}},"header":{"x-powered-by":"Express","access-control-allow-origin":"*","content-type":"application/json; charset=utf-8","content-length":"290","etag":"W/\"122-c+Me2QfWjXz42+115aZP7QOlu4c\"","date":"Thu, 25 Jul 2024 06:25:53 GMT","connection":"close"},"status":200,"text":"{\"name\":\"Nitesh\",\"email\":\"kumarksaslddu@mail.com\",\"departments\":[\"engineering\",\"management\",\"home_science\"],\"preferred_language\":\"english\",\"shift_timing\":\"night\",\"performance_score\":0,\"preferred_city\":\"delhi\",\"absent\":false,\"active\":true,\"weight\":0,\"_id\":\"66a1eff060f5e2ac78567b47\",\"__v\":0}"}
+2024-07-25T06:25:56.473Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:26:22.689Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:26:22.697Z : [32minfo[39m: create moderators
+2024-07-25T06:26:25.349Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:27:15.034Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:27:15.042Z : [32minfo[39m: create moderators
+2024-07-25T06:27:15.915Z : [32minfo[39m: undefined
+2024-07-25T06:27:18.874Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:27:24.983Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:27:24.996Z : [32minfo[39m: create moderators
+2024-07-25T06:27:25.780Z : [32minfo[39m: {"req":{"method":"POST","url":"http://127.0.0.1:39343/moderators","data":{"name":"Nitesh","email":"kumarksaslddu@mail.com","preferred_city":"delhi","preferred_language":"english","departments":["engineering","management","home_science"],"shift_timing":"night"},"headers":{"content-type":"application/json"}},"header":{"x-powered-by":"Express","access-control-allow-origin":"*","content-type":"application/json; charset=utf-8","content-length":"290","etag":"W/\"122-fGZPN1I50Y9OWiVh3Lsnogc4vQ8\"","date":"Thu, 25 Jul 2024 06:27:25 GMT","connection":"close"},"status":200,"text":"{\"name\":\"Nitesh\",\"email\":\"kumarksaslddu@mail.com\",\"departments\":[\"engineering\",\"management\",\"home_science\"],\"preferred_language\":\"english\",\"shift_timing\":\"night\",\"performance_score\":0,\"preferred_city\":\"delhi\",\"absent\":false,\"active\":true,\"weight\":0,\"_id\":\"66a1f04d4c41a87ee7e2d2b5\",\"__v\":0}"}
+2024-07-25T06:27:27.737Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:28:25.209Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:28:25.216Z : [32minfo[39m: create moderators
+2024-07-25T06:28:27.827Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:28:42.461Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:28:42.468Z : [32minfo[39m: create moderators
+2024-07-25T06:28:43.320Z : [32minfo[39m: "{\"name\":\"Nitesh\",\"email\":\"kumarksaslddu@mail.com\",\"departments\":[\"engineering\",\"management\",\"home_science\"],\"preferred_language\":\"english\",\"shift_timing\":\"night\",\"performance_score\":0,\"preferred_city\":\"delhi\",\"absent\":false,\"active\":true,\"weight\":0,\"_id\":\"66a1f09aa1c2c457d8d4b321\",\"__v\":0}"
+2024-07-25T06:28:46.311Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:29:04.957Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:29:04.964Z : [32minfo[39m: create moderators
+2024-07-25T06:29:05.844Z : [32minfo[39m: {"name":"Nitesh","email":"kumarksaslddu@mail.com","departments":["engineering","management","home_science"],"preferred_language":"english","shift_timing":"night","performance_score":0,"preferred_city":"delhi","absent":false,"active":true,"weight":0,"_id":"66a1f0b0ecff9e7e23331085","__v":0}
+2024-07-25T06:29:08.840Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:29:23.153Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:29:23.161Z : [32minfo[39m: create moderators
+2024-07-25T06:29:24.034Z : [32minfo[39m: 66a1f0c3a79501f501611c30
+2024-07-25T06:29:26.991Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:31:15.694Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:31:15.706Z : [32minfo[39m: create moderators
+2024-07-25T06:31:19.518Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:35:49.478Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:35:49.487Z : [32minfo[39m: create moderators
+2024-07-25T06:35:53.348Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:36:20.851Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:36:20.858Z : [32minfo[39m: create moderators
+2024-07-25T06:36:27.659Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:36:56.936Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:36:56.943Z : [32minfo[39m: create moderators
+2024-07-25T06:37:00.612Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:39:14.073Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:39:14.081Z : [32minfo[39m: create moderators
+2024-07-25T06:39:18.501Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:41:41.406Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:41:41.413Z : [32minfo[39m: create moderators
+2024-07-25T06:41:45.623Z : [32minfo[39m: searching for cache key moderators:day
+2024-07-25T06:41:45.814Z : [32minfo[39m: Cache miss for moderators
+2024-07-25T06:41:46.199Z : [32minfo[39m: currentIndex is 0 in redis
+2024-07-25T06:41:46.200Z : [32minfo[39m: adding currentIndex 1 in redis
+2024-07-25T06:41:47.393Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:42:52.554Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:42:52.562Z : [32minfo[39m: create moderators
+2024-07-25T06:42:56.949Z : [32minfo[39m: searching for cache key moderators:day
+2024-07-25T06:42:57.141Z : [32minfo[39m: Cache hit for moderators
+2024-07-25T06:42:57.333Z : [32minfo[39m: currentIndex is 1 in redis
+2024-07-25T06:42:57.334Z : [32minfo[39m: adding currentIndex 0 in redis
+2024-07-25T06:42:57.724Z : [32minfo[39m: 66a1f3a7fd3f000d47c1ef77
+2024-07-25T06:42:58.521Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:50:46.016Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:50:46.023Z : [32minfo[39m: create moderators
+2024-07-25T06:50:50.204Z : [32minfo[39m: searching for cache key moderators:day
+2024-07-25T06:50:50.396Z : [32minfo[39m: Cache hit for moderators
+2024-07-25T06:50:50.588Z : [32minfo[39m: currentIndex is 0 in redis
+2024-07-25T06:50:50.588Z : [32minfo[39m: adding currentIndex 1 in redis
+2024-07-25T06:50:51.588Z : [32minfo[39m: searching for cache key moderators:day
+2024-07-25T06:50:51.784Z : [32minfo[39m: Cache hit for moderators
+2024-07-25T06:50:51.981Z : [32minfo[39m: currentIndex is 1 in redis
+2024-07-25T06:50:51.981Z : [32minfo[39m: adding currentIndex 0 in redis
+2024-07-25T06:50:54.024Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:51:08.469Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:51:08.476Z : [32minfo[39m: create moderators
+2024-07-25T06:51:12.692Z : [32minfo[39m: searching for cache key moderators:day
+2024-07-25T06:51:12.883Z : [32minfo[39m: Cache miss for moderators
+2024-07-25T06:51:13.277Z : [32minfo[39m: currentIndex is null in redis
+2024-07-25T06:51:13.277Z : [32minfo[39m: adding currentIndex 1 in redis
+2024-07-25T06:51:14.272Z : [32minfo[39m: searching for cache key moderators:day
+2024-07-25T06:51:14.469Z : [32minfo[39m: Cache hit for moderators
+2024-07-25T06:51:14.665Z : [32minfo[39m: currentIndex is 1 in redis
+2024-07-25T06:51:14.666Z : [32minfo[39m: adding currentIndex 0 in redis
+2024-07-25T06:51:16.692Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:52:50.622Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:52:50.629Z : [32minfo[39m: create moderators
+2024-07-25T06:52:54.825Z : [32minfo[39m: searching for cache key moderators:day
+2024-07-25T06:52:55.017Z : [32minfo[39m: Cache miss for moderators
+2024-07-25T06:52:55.410Z : [32minfo[39m: currentIndex is null in redis
+2024-07-25T06:52:55.410Z : [32minfo[39m: adding currentIndex 1 in redis
+2024-07-25T06:52:56.406Z : [32minfo[39m: searching for cache key moderators:day
+2024-07-25T06:52:56.602Z : [32minfo[39m: Cache hit for moderators
+2024-07-25T06:52:56.799Z : [32minfo[39m: currentIndex is 1 in redis
+2024-07-25T06:52:56.799Z : [32minfo[39m: adding currentIndex 0 in redis
+2024-07-25T06:52:58.887Z : [32minfo[39m: mongo db disconnected after tests
+2024-07-25T06:53:17.176Z : [32minfo[39m: connected to mongo db :: stage -> development
+2024-07-25T06:53:17.184Z : [32minfo[39m: create moderators
+2024-07-25T06:53:21.390Z : [32minfo[39m: searching for cache key moderators:day
+2024-07-25T06:53:21.582Z : [32minfo[39m: Cache miss for moderators
+2024-07-25T06:53:21.975Z : [32minfo[39m: currentIndex is null in redis
+2024-07-25T06:53:21.976Z : [32minfo[39m: adding currentIndex 1 in redis
+2024-07-25T06:53:22.974Z : [32minfo[39m: searching for cache key moderators:day
+2024-07-25T06:53:23.170Z : [32minfo[39m: Cache hit for moderators
+2024-07-25T06:53:23.367Z : [32minfo[39m: currentIndex is 1 in redis
+2024-07-25T06:53:23.367Z : [32minfo[39m: adding currentIndex 0 in redis
+2024-07-25T06:53:25.397Z : [32minfo[39m: mongo db disconnected after tests

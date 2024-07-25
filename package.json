@@ -20,6 +20,7 @@
     "nodemon": "^3.1.4",
     "redis": "^4.6.15",
     "should": "^13.2.3",
+    "sinon": "^18.0.0",
     "supertest": "^7.0.0",
     "swagger-ui-express": "^5.0.1",
     "winston": "^3.13.1",
