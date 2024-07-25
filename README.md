@@ -13,6 +13,9 @@ NODE_ENV=development
 LOG_DIRECTORY=./logs/development
 PORT=5000
 URI=<mongo_uri>
+REDIS_HOST=redis-15475...redns.redis-cloud.com
+REDIS_PORT=15475
+REDIS_PASSWORD=3EbInfzFd8o4Hu3BrI3DjqkRx7C
 ```
 
 # Low Level Design
@@ -22,8 +25,8 @@ URI=<mongo_uri>
 # Steps to run unit testing
 ```
 npm run test -> to run the test
-npm run generate_test_report
-npm run code_coverage
+npm run generate_test_report -> create HTML report to view in browser
+npm run code_coverage -> code_coverage table is generated
 ```
 
 

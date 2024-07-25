@@ -50,14 +50,15 @@ router.post("/report", (req, res) => {
       const { strategy } = configDoc;
 
       if (strategy === "round_robin") {
-        assignmentStrategy = new RoundRobin(moderators);
+        assignmentStrategy = new RoundRobin(moderators,redisClient);
       } else if (strategy === "weighted_round_robin") {
-        assignmentStrategy = new WeightedRoundRobin(moderators);
+        assignmentStrategy = new WeightedRoundRobin(moderators,redisClient);
       } else {
         assignmentStrategy = new PerformanceBased(moderators);
       }
-
-      const moderator = assignmentStrategy.getSelectedModerator();
+      return assignmentStrategy.getSelectedModerator();
+    })
+    .then((moderator)=>{
       return taskSchema.create({
         job_id,
         reported_by: seeker_id,
