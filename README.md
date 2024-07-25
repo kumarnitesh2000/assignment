@@ -18,6 +18,11 @@ REDIS_PORT=15475
 REDIS_PASSWORD=3EbInfzFd8o4Hu3BrI3DjqkRx7C
 ```
 
+3. run the server
+```
+npm run start
+```
+
 # Low Level Design / Class Diagram
 ![cd](https://github.com/user-attachments/assets/47ba33c6-ae05-4207-96a5-2f492bada0a6)
 
