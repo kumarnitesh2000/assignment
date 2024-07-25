@@ -18,9 +18,12 @@ REDIS_PORT=15475
 REDIS_PASSWORD=3EbInfzFd8o4Hu3BrI3DjqkRx7C
 ```
 
-# Low Level Design
+# Low Level Design / Class Diagram
+![cd](https://github.com/user-attachments/assets/47ba33c6-ae05-4207-96a5-2f492bada0a6)
 
-# High Level Design
+
+# Job Report flow
+![flow](https://github.com/user-attachments/assets/4a4c99a6-6269-4cb4-b609-468b46b77fc0)
 
 # Steps to run unit testing
 ```
